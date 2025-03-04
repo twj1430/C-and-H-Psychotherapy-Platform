@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+:root {
+    --font-ubuntu: 'Ubuntu', monospace;
+    --color-border: #e5e5e5;
+}
+
+.font-ubuntu {
+    font: normal 500 16px var(--font-ubuntu);
+}
+
+#login-form {
+    padding: 10% 0;
+    background-color: rgba(155, 190, 222);
+    background-size: cover;
+}
+
+
+
+
+
+#register .modal .modal-dialog .modal-content .modal-body .inverse {
+    position: relative;
+}
+
+#register .modal .modal-dialog .modal-content .modal-body .inverse {
+    transition: filter .8s ease;
+}
+
+#register .modal .modal-dialog .modal-content .modal-body .inverse:hover {
+    filter: drop-shadow(1px 1px 22px #7584bb);
+}
+
+#upload-profile {
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 283px;
+    opacity: 0;
+}
+
+
+#upload-profile1 {
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    width: 200px;
+    opacity: 0;
+}
+
+
+#login-form h1.login-title {
+    padding-top: 30px;
+}
+
+#login-form input[type="submit"] {
+    transition: ease 0.5s;
+    background-color: blue;
+    border-width: 0;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    border-color: white;
+    outline: none;
+}
+
+#login-form input[type="submit"]:hover {
+    transition: ease 0.5s;
+    background-color: rgb(100, 100, 255);
+
+}
+
+#login-form {
+    color: rgba(37, 74, 118);
+}
+
+#login-form .container {
+    margin-top: -50px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: rgba(37, 74, 118);
+    background-color: rgba(210, 232, 243);
+}
+
+#login-form .upload-profile-image img#Client {
+    background-color: yellow;
+}
+
+
+#register #password_same,
+#register #password_length,
+#register #birth_warning,
+#register #email_warning {
+    color: red;
+    display: none;
+}
+
+@media screen and (max-width:767px) {
+    #login-form .container {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    #register1 .container {
+        margin-top: 30px;
+    }
+
+    #upload-profile {
+        margin-left: 100px;
+        opacity: 0;
+    }
+
+}
+
+#upload-profile::-webkit-file-upload-button,
+#upload-profile1::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+#upload-profile::before,
+#upload-profile1::before {
+    content: ' ';
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+
+
+#register .modal .modal-dialog .modal-content .modal-body .camera-icon {
+    position: absolute;
+    top: 70px;
+    left: 69px;
+    width: 60px !important;
+    filter: invert(30%) !important;
+}
+
+
+#register .modal .modal-dialog .modal-content .modal-body .inverse:hover .camera-icon {
+    filter: invert(100%) !important;
+}
+
+.register-success,
+.register-fail,
+.already-registered,
+.unavailable,
+.wrong-password,
+.error,
+.password-notmatch {
+    margin-bottom: 50px !important;
+    margin-top: -73px !important;
+    display: none;
+}
+
+/* #reg-form id is in the form action from register.php */
+/* #log-form id i in the form action from login.php */
+
+#reg-form input[type='text'],
+#reg-form input[type='date'],
+#reg-form input[type='email'],
+#reg-form input[type='password'],
+#reg-form input[type='tel'],
+#log-form input[type='text'],
+#log-form input[type='email'],
+#log-form input[type='password'] {
+    border: none;
+    border-radius: unset;
+    border-bottom: 1px solid var(--color-border);
+    font-family: var(--font-ubuntu);
+}
+
+
+#reg-form input[type='submit'] {
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: darkblue;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-right: 20px;
+    transition: ease 0.5s;
+    cursor: pointer;
+}
+
+#reg-form input[type='submit']:focus {
+    outline: none;
+}
+
+#reg-form input[type='submit']:hover {
+    background-color: rgba(59, 82, 114);
+    transition: ease 0.5s;
+
+}
+
+
+#log-form button#register:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+#log-form button#register {
+    margin-bottom: 3px;
+}

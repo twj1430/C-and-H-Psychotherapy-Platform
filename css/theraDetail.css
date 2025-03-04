@@ -1,0 +1,79 @@
+#theraDetail {
+    padding-top: 25px;
+    background-color: rgb(245, 245, 245);
+}
+
+#theraDetail .container {
+    margin-top: 55px;
+    background-color: white;
+    padding-top: 20px;
+}
+
+#theraDetail #image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+#theraDetail .theraName {
+    margin-top: 20px;
+    color: rgba(48, 83, 125);
+}
+
+#theraDetail #theraLic {
+    color: rgba(34, 19, 48);
+}
+
+
+
+#theraDetail .theraAbout {
+    color: rgba(48, 83, 125);
+    margin-bottom: 30px;
+}
+
+#theraAbout {
+    margin-bottom: 20px;
+}
+
+#theraDetail .para {
+    margin-bottom: 30px;
+}
+
+#theraDetail .theraService {
+    color: rgba(48, 83, 125);
+    margin-bottom: 30px;
+}
+
+#theraDetail ul.noStyle {
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+}
+
+#theraDetail ul.noStyle li {
+    float: left;
+    margin-right: 30px;
+}
+
+#theraDetail ul.noStyle li i {
+    font-size: 40px;
+    color: rgba(48, 83, 125);
+}
+
+#theraDetail .theraLic {
+    color: rgba(48, 83, 125);
+    margin-bottom: 30px;
+}
+
+#theraDetail .theraRe {
+    color: rgba(48, 83, 125);
+    margin-bottom: 30px;
+}
+
+#theraDetail .review {
+    margin: 30px 0 50px 0;
+}
+
+#theraDetail .paraTop {
+    margin-bottom: 5px;
+}

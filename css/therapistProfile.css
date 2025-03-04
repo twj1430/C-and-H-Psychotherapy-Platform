@@ -1,0 +1,513 @@
+#thera_profile .hand {
+    display: none;
+}
+
+#thera_profile #whole {
+    margin-left: 0 !important;
+    margin-right:0 !important;
+}
+
+
+#thera_profile .col-md-4 .col-md-12 img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+#thera_profile .row .col-md-4 {
+    text-align: center;
+    padding-top: 30px;
+    background-color: rgb(152, 152, 250);
+}
+
+#thera_profile h4.welcome {
+    color: white;
+    padding-top: 10px;
+}
+
+#thera_profile button.info:focus {
+    outline: none;
+}
+
+#thera_profile button.theraInfo {
+    background: none;
+    border: none;
+    margin-top: -2px;
+    padding: none;
+    color: black;
+}
+
+#thera_profile ul.noStyle {
+    list-style-type: none;
+    text-align: left !important;
+    position: relative;
+    margin-top: 30px;
+}
+
+#thera_profile .row .col-md-4 .col-md-12 li {
+    font-size: 20px;
+    margin: 0 0 20px 30px;
+    max-width: 266px;
+}
+
+#thera_profile .row .col-md-4 .col-md-12 li i {
+    color: white;
+}
+
+
+#thera_profile button:focus {
+    outline: none;
+}
+
+#thera_profile .col-md-7 .container {
+    box-shadow: none;
+}
+
+#thera_profile #about {
+    resize: none;
+}
+
+
+#thera_profile input[type='text'] {
+    font-size: 20px;
+}
+
+#thera_profile .edit-hide {
+    display: none;
+}
+
+#thera_profile #Profile {
+    padding: 10px;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 600px;
+}
+
+#thera_profile #submit {
+    display: none;
+}
+
+#thera_profile button#logBtn {
+    background: none;
+    color: darkblue;
+    border: none;
+    margin: 59px 0 0 -15px;
+    border-radius: 10px;
+    transition: ease 0.5s;
+}
+
+#thera_profile button#logBtn:hover {
+    color: rgba(59, 82, 114);
+    transition: ease 0.5s;
+}
+
+#thera_profile .edit {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#thera_profile .logout {
+    margin-top: 113px;
+}
+
+#thera_profile #Appointment {
+    margin-top: 10px;
+    display: none;
+    padding: 10px;
+}
+
+#thera_profile h4#profile_h4 {
+    color: black;
+}
+
+#thera_profile #profile_icon {
+    color: black;
+}
+
+#thera_profile #appointment_h4 {
+    color: white;
+}
+
+#thera_profile #appointment_icon {
+    color: white;
+}
+
+#thera_profile #report_h4 {
+    color: white;
+}
+
+#thera_profile #report_icone {
+    color: white;
+}
+
+#thera_profile #setting_h4 {
+    color: white;
+}
+
+#thera_profile #setting_icon {
+    color: white;
+}
+
+#thera_profile button.theraInfo:hover {
+    border-bottom: 1px solid black;
+    border-radius: 1px;
+}
+
+#thera_profile .tab-content .container {
+    box-shadow: none;
+}
+
+#thera_profile .left-side {
+    margin-left: -35px;
+}
+
+#thera_profile #accept {
+    margin-bottom: 10px;
+}
+
+#thera_profile #reject {
+    margin-bottom: 10px;
+}
+
+#thera_profile #view{
+    margin-bottom:10px;
+}
+
+#thera_profile #today {
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    height: 553px;
+}
+
+#thera_profile #waiting {
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    height: 553px;
+}
+
+#thera_profile #all {
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    height: 553px;
+}
+
+#thera_profile #uploadProfile {
+    position: absolute;
+    top: -15px;
+    left: 85px;
+    z-index: 10;
+    width: 200px;
+    margin-top: 5px;
+    opacity: 0;
+    display: none;
+}
+
+#thera_profile #uploadProfile::before {
+    content: ' ';
+    display: inline-block;
+    width: 200px;
+    height: 160px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#thera_profile #uploadProfile::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+#thera_profile #changePro {
+    display: none;
+    color: blue;
+}
+
+#thera_profile #camera_icon {
+    position: absolute;
+    top: 0px;
+    left: 177px;
+    width: 60px !important;
+    filter: invert(100%) !important;
+    border-width: 0 !important;
+    transition: filter .3s ease;
+    display: none;
+}
+
+#thera_profile .edit-success,
+#thera_profile .edit-fail,
+#thera_profile .Password_fail,
+#thera_profile .change-success{
+    margin-top: -4px !important;
+    display: none;
+}
+
+#thera_profile #change {
+    margin-top: 10px;
+}
+
+#thera_profile #password_oldPlace {
+    display: none;
+}
+
+#thera_profile #password_newPlace {
+    display: none;
+}
+
+#thera_profile #password_confPlace {
+    display: none;
+}
+
+
+#thera_profile #password_feedback {
+    color: red;
+    display: none;
+}
+
+#thera_profile #password_empty1 {
+    color: red;
+    display: none;
+}
+
+#thera_profile #password_empty2 {
+    color: red;
+    display: none;
+}
+
+#thera_profile #password_length {
+    color: red;
+    display: none;
+}
+
+@media screen and (max-width:414px) {
+    #thera_profile .hand {
+        display: block;
+        margin-bottom: 15px;
+        background-color: rgba(156, 189, 220);
+        position: fixed;
+        bottom: 0;
+        margin-left: -15px;
+        padding-bottom: 15px;
+        margin-bottom: -1px;
+        padding-top: 10px;
+    }
+
+    #thera_profile .left-side {
+        display: none;
+    }
+
+    #thera_profile .logout {
+        display: none;
+
+    }
+
+    #thera_profile .container {
+        border-radius: 0;
+        margin-left: 0;
+        box-shadow: none;
+    }
+
+    #thera_profile .row .col-md-4 {
+        margin-top: -10px;
+        border-radius: 0;
+    }
+
+    #thera_profile .right-side {
+        margin-top: 10px;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-bottom: 60px;
+    }
+
+    #thera_profile #Profile {
+        overflow: auto;
+        overflow-y: hidden;
+        height: auto;
+    }
+
+    #thera_profile #profile_iconSecond {
+        font-size: 50px;
+        color: black;
+    }
+
+    #thera_profile #appointment_iconSecond {
+        font-size: 50px;
+        color: white;
+        padding-right: 20px;
+    }
+
+    #thera_profile #report_iconSecond {
+        font-size: 50px;
+        color: white;
+    }
+
+    #thera_profile #setting_iconSecond {
+        font-size: 50px;
+        color: white;
+    }
+
+    #thera_profile .UserIcon {
+        float: left;
+        border-right: 1px solid black;
+        padding: 5px 25px 5px 15px;
+        cursor: pointer;
+    }
+
+    #thera_profile .UserAppointment {
+        margin-left: 20px;
+        float: left;
+        border-right: 1px solid black;
+        padding: 5px 20px 5px 10px;
+        cursor: pointer;
+        position: relative;
+    }
+
+    #thera_profile .UserReport {
+        margin-left: 30px;
+        float: left;
+        border-right: 1px solid black;
+        padding: 5px 30px 5px 0;
+        cursor: pointer;
+    }
+
+    #thera_profile .UserSetting {
+        margin-left: 30px;
+        float: left;
+        padding: 5px 0 5px 0;
+        cursor: pointer;
+    }
+
+    #thera_profile #appointmentSecond_number {
+        position: absolute;
+        z-index: 1;
+        right: 6px;
+        top: 16px;
+        width: 25px;
+    }
+
+    #thera_profile #uploadProfile {
+        left: 90px;
+    }
+
+    #thera_profile #uploadProfile::before {
+        height: 175px;
+    }
+
+    #thera_profile #logout_iconSecond {
+        font-size: 50px;
+        color: rgba(48, 83, 125);
+    }
+
+    #thera_profile #UserLogoutSecond {
+        float: left;
+        padding: 5px 10px 5px 17px;
+        cursor: pointer;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+
+#theraLogin-form {
+    color: rgba(37, 74, 118);
+    background-color: rgba(155, 190, 222);
+    background-size: cover;
+    padding-top: 10px;
+}
+
+#theraLogin-form h1.login-title {
+    padding-top: 30px;
+}
+
+#theraLogin-form input[type="submit"] {
+    transition: ease 0.5s;
+    background-color: blue;
+    border-width: 0;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    border-color: white;
+    outline: none;
+}
+
+#theraLogin-form input[type="submit"]:hover {
+    transition: ease 0.5s;
+    background-color: rgb(100, 100, 255);
+
+}
+
+
+@media screen and (max-width:414px) {
+
+    #theraLogin-form .container {
+        margin-top: 30px;
+    }
+
+    #theraLogin-form #upload-profile {
+        margin-left: 100px;
+        opacity: 0;
+    }
+
+}
+
+
+
+
+#theraLogin-form input[type='text'],
+#theraLogin-form input[type='email'],
+#theraLogin-form input[type='password'] {
+    border: none;
+    border-radius: unset;
+    border-bottom: 1px solid var(--color-border);
+    font-family: var(--font-ubuntu);
+}
+
+
+#theraLogin-form button#register:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+#theraLogin-form button#register {
+    margin-bottom: 3px;
+}
+
+#theraLogin-form .container {
+    max-width: 800px !important;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: rgba(37, 74, 118);
+    background-color: rgba(210, 232, 243);
+}
+
+#theraLogin-form .upload-profile-image img#Client {
+    background-color: yellow;
+}
+
+@media screen and (max-width:414px) {
+    #theraLogin-form .container {
+        margin-top: 30px;
+    }
+}
+
+#theraLogin-form .unavailable {
+    display: none;
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+
+
+
+#theraLogin-form .wrong-password {
+    margin-top: -10px;
+    margin-bottom: 0px;
+    display: none;
+}
+
+#theraLogin-form .error {
+    margin-top: -10px;
+    margin-bottom: 0px;
+    display: none;
+}

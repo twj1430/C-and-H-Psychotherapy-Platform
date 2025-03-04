@@ -1,0 +1,39 @@
+.wrapper {
+    background-color: #fff;
+    width: 500px;
+    padding: 25px;
+    margin: 25px auto 25px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+#payment .wrapper h2 {
+    background-color: #fcfcfc;
+    color: rgba(34,19,48);
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px dotted #333;
+}
+
+h4 {
+    padding-bottom: 5px;
+    color:rgba(34,19,48);
+}
+
+#invoice #Invoice{
+    background-color: #fcfcfc;
+    color: rgba(34,19,48);
+    font-size: 45px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px dotted #333;
+}
+
+#invoice .wrapper {
+    background-color: #fff;
+    width: 700px;
+    padding: 25px;
+    margin: 25px auto 25px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}

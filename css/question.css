@@ -1,0 +1,215 @@
+#Question ul.choices {
+    padding-top: 10px;
+}
+
+#Question .question-form li {
+    list-style: none;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+#Question span {
+    padding-left: 10px;
+}
+
+
+#Question h3 {
+    text-align: center;
+    color: rgba(59, 82, 114);
+    margin-top: 5px;
+}
+
+#Question .container h4.question-text {
+    text-align: center;
+}
+
+
+#Question hr#ans {
+    border: 1px solid black;
+    max-width: 800px;
+}
+
+#Question .container hr {
+    border: 1px solid black;
+}
+
+#Question .question-form {
+    font-size: 17px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#Question .question-side {
+    border-radius: 10px;
+    background-color: rgba(46, 78, 117);
+    position: absolute;
+    left: 45%;
+    width: 500px;
+}
+
+#Question img {
+    border-radius: 50% !important;
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+#Question #recommendation img {
+    margin-bottom: 300px;
+    width: 30%;
+    margin-left: 163px;
+}
+
+
+#Question .question-side h3 {
+    color: white;
+}
+
+#Question p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#Question p#over {
+    margin-left: 10px;
+    font-size: 19px;
+    font-weight: 500;
+    display: none;
+    margin-top: 0 !important;
+}
+
+#Question .container .question-form input#cancel {
+    margin-left: 20px;
+}
+
+#Question .carousel-caption {
+    margin-bottom: 20px !important;
+}
+
+#Question .carousel-indicators {
+    margin-bottom: 50px !important;
+}
+
+
+#Question p {
+    font-size: 20px;
+    color: rgba(34, 19, 48) !important;
+    margin-top: 5px !important;
+}
+
+#Question h2 {
+    color: rgba(34, 19, 48);
+}
+
+
+#showResult #Question span {
+    padding-left: 10px;
+}
+
+#showResult .container {
+    display: block;
+    padding: 30px 0 30px 0;
+    background-color: rgb(241, 241, 241);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100vw;
+    height: auto;
+    border-radius: 20px;
+}
+
+#showResult h3 {
+    text-align: center;
+    color: rgba(59, 82, 114);
+    margin-top: 40px;
+}
+
+#showResult .container h4.question-text {
+    text-align: center;
+}
+
+
+#showResult hr#ans {
+    border: 1px solid black;
+    max-width: 800px;
+}
+
+#showResult .container hr {
+    border: 1px solid black;
+}
+
+#showResult .container .question-form {
+    font-size: 20px;
+}
+
+#showResult .col-md-12 .row .col-md-6 {
+    height: 330px;
+}
+
+#showResult .col-md-12 .row .col-md-6 img {
+    border-radius: 50%;
+    float: right;
+    margin: 0 80px 0 0;
+    width: 200px;
+    height: 200px;
+}
+
+#showResult .col-md-12 .row .col-md-6 p {
+    padding: 5px 0 0 0;
+    font-size: 20px;
+    color: rgba(48, 83, 125);
+    font-weight: 700;
+}
+
+#showResult button {
+    margin: 40px 60px 0 0;
+
+}
+
+#showResult {
+    text-align: left !important;
+    margin: 40px 0x 0 0;
+}
+
+#showResult #cancel {
+    float: right;
+}
+
+
+@media screen and (max-width:767px) {
+    #Question .container {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        max-width: 479px;
+    }
+
+    #Question li {
+        list-style: none;
+        padding-bottom: 10px;
+        padding-left: 0;
+        margin-left: 0
+    }
+
+    #Question .container .question-form input[type='submit'] {
+        margin: 30px 0 0 41px;
+    }
+}
+
+@media screen and (max-width:414px) {
+    #Question .question-side {
+        left: 0%;
+        bottom: -72%;
+        width: 500px;
+    }
+
+    #Question #right-side {
+        height: 400px !important;
+    }
+
+    #Question {
+        margin-left: 30px !important;
+        margin-right: -70px !important;
+    }
+}

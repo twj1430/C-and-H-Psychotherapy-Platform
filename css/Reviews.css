@@ -1,0 +1,123 @@
+
+#reviews .h7 {
+    font-size: 0.9rem;
+}
+
+#reviews .gedf-wrapper {
+    margin-top: 0.97rem;
+}
+
+@media (min-width: 992px) {
+    #reviews .gedf-main {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    #reviews .gedf-card {
+        margin-bottom: 2.77rem;
+    }
+}
+
+#reviews .container {
+    margin-top: 100px;
+}
+
+
+/**Reset Bootstrap*/
+
+#reviews .dropdown-toggle::after {
+    content: none;
+    display: none;
+}
+
+
+/**header*/
+
+#reviews .logo-header {
+    /* background: linear-gradient(rgba(62, 63, 64, 0.6), rgba(62, 63, 64, 0.6)), url("https://i.imgur.com/FVieG2F.png"); */
+    background-size: cover;
+    background-position: center bottom;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 100px;
+    width:100%;
+}
+
+#reviews .logo-header h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 0 auto 0.2em auto;
+}
+
+#reviews .logo-header p {
+    font-size: 1.15rem;
+    width: 80%;
+    margin: 0 auto 2em auto;
+}
+
+#reviews .logo-header .logo {
+    margin: 0 auto 1em auto;
+}
+
+#reviews .logo-header .btn {
+    padding: 10px 26px;
+    background-color: #313131;
+    color: #FFF;
+    display: inline-block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    text-decoration: none;
+    border: solid 2px #313131;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+#reviews .logo-header .btn:hover {
+    color: #FFF;
+    background-color: #1f69ff;
+    border-color: #1f69ff;
+}
+
+@media (min-width: 992px) {
+    #reviews .logo-header {
+        height: 65vh;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    #reviews .logo-header h1 {
+        font-size: 4rem;
+    }
+    .logo-header p {
+        width: 60%;
+    }
+}
+
+/* @media (max-width: 480px) {
+    #reviews .logo-header h1 {
+        font-size: 2.4rem;
+    }
+    
+} */
+
+@media (max-width: 414px) {
+    #reviews .logo-header h1 {
+        font-size: 1.4rem;
+}
+
+#reviews .logo-header .logo{
+    margin:100px auto 1em auto;
+}
+
+#reviews .container{
+    margin-top: 0;
+}
+
+#reviews .container .row .col-md-6{
+    padding-bottom: 10px;
+}
+
+#reviews .container .row .col-md-12 {
+    padding-bottom:10px;
+}
+}

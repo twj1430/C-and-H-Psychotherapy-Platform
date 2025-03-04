@@ -1,0 +1,437 @@
+#profile_copy .side_left {
+    margin-bottom: 30px;
+}
+
+#profile_copy {
+    margin-top: 56px;
+}
+
+#profile_copy #whole {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+#profile_copy button.info:focus {
+    outline: none;
+}
+
+#profile_copy button.info:hover {
+    border-bottom: 1px solid black;
+    border-radius: 1px;
+}
+
+#profile_copy #showAppointment {
+    display: none;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    height: 535px;
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+#profile_copy #showPayment {
+    display: none;
+}
+
+#profile_copy button#logBtn {
+    background: none;
+    color: darkblue;
+    border: none;
+    padding: 0 10px 0 15px;
+    margin: -2px 0 0 -20px;
+    border-radius: 10px;
+    transition: ease 0.5s;
+}
+
+#profile_copy button#logBtn:hover {
+    color: rgba(59, 82, 114);
+    transition: ease 0.5s;
+}
+
+#profile_copy .edit {
+    margin: 20px 0 10px 0;
+}
+
+#profile_copy button#submit {
+    display: none;
+}
+
+#profile_copy button#cancel {
+    display: none;
+}
+
+#profile_copy #uploadProfile {
+    position: absolute;
+    top: -15px;
+    left: 13px;
+    z-index: 10;
+    width: 200px;
+    margin-top: 5px;
+    opacity: 0;
+    display: none;
+}
+
+#profile_copy #uploadProfile::before {
+    content: ' ';
+    display: inline-block;
+    width: 200px;
+    height: 170px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#profile_copy #uploadProfile::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+#profile_copy #changePro {
+    display: none;
+    color: blue;
+}
+
+#profile_copy .container {
+    max-width: 1200px;
+}
+
+#profile_copy input[type='text'] {
+    font-size: 20px;
+}
+
+#profile_copy #showInfo {
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 550px;
+}
+
+
+#profile_copy #camera_icon {
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    width: 60px !important;
+    filter: invert(100%) !important;
+    border-width: 0 !important;
+    transition: filter .3s ease;
+    display: none;
+}
+
+#profile_copy #user_icon {
+    font-size: 28px;
+}
+
+#profile_copy #infoBtn {
+    background-color: white;
+    border: none;
+    margin-top: -2px;
+    padding: none;
+    color: black;
+}
+
+#profile_copy #appointment_icon {
+    font-size: 28px;
+    color: silver;
+}
+
+#profile_copy #appointmentBtn {
+    background-color: white;
+    border: none;
+    padding: none;
+    margin-top: -2px;
+    color: silver;
+}
+
+#profile_copy #payment_icon {
+    font-size: 28px;
+    color: silver;
+}
+
+
+#profile_copy #paymentBtn {
+    background-color: white;
+    border: none;
+    padding: none;
+    margin-top: -2px;
+    color: silver;
+}
+
+
+#profile_copy #settingBtn {
+    background-color: white;
+    border: none;
+    padding: none;
+    margin-top: -2px;
+    color: silver;
+}
+
+#profile_copy #setting_icon {
+    font-size: 28px;
+    color: silver;
+}
+
+#profile_copy .AllInfo {
+    margin-left: 30px;
+}
+
+#profile_copy .TopInfo {
+    margin: 30px;
+}
+
+#profile_copy .hand {
+    display: none;
+}
+
+#profile_copy .Bot {
+    background-color: rgb(245, 245, 245);
+}
+
+#profile_copy .edit-success,
+#profile_copy .review-success {
+    margin-top: -4px !important;
+    display: none;
+}
+
+
+#profile_copy .edit-fail {
+    margin-top: -4px !important;
+    display: none;
+}
+
+
+#profile_copy #change {
+    margin-top: 10px;
+}
+
+#profile_copy #password_oldPlace {
+    display: none;
+}
+
+#profile_copy #password_newPlace {
+    display: none;
+}
+
+#profile_copy #password_confPlace {
+    display: none;
+}
+
+
+#profile_copy #password_feedback,
+#profile_copy #password_empty1,
+#profile_copy #password_empty2,
+#profile_copy .Password_fail,
+#profile_copy #password_length {
+    color: red;
+    display: none;
+}
+
+#profile_copy .change-success {
+    margin-top: -4px !important;
+    display: none;
+}
+
+
+#profile_copy #checkout {
+    margin-bottom: 10px;
+}
+
+#profile_copy input[type='submit'] {
+    border: none;
+    color: white;
+    background-color: darkblue;
+    font-weight: 600;
+    transition: ease 0.5s;
+    cursor: pointer;
+}
+
+#profile_copy input[type='submit']:hover {
+    background-color: rgba(59, 82, 114);
+    transition: ease 0.5s;
+}
+
+@media screen and (max-width:414px) {
+    #profile_copy .AllInfo .col-md-6 {
+        padding-left: 0;
+    }
+
+    #profile_copy .AllInfo .col-md-12 {
+        padding-left: 0;
+    }
+
+    #profile_copy .main {
+        display: none;
+    }
+
+    #profile_copy .container {
+        box-shadow: none;
+
+    }
+
+    #profile_copy #showInfo {
+        overflow: auto;
+        overflow-y: hidden !important;
+        overflow-x: hidden !important;
+        height: auto;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 10px
+    }
+
+    #profile_copy #uploadProfile {
+        position: absolute;
+        top: -15px;
+        left: 105px;
+        z-index: 10;
+        width: 200px;
+        margin-top: 5px;
+        opacity: 0;
+        display: none;
+    }
+
+    #profile_copy .container {
+        max-width: 414px !important;
+    }
+
+    #profile_copy .hand {
+        display: block;
+        background-color: rgba(156, 189, 220);
+        position: fixed !important;
+        bottom: 0;
+        margin-left: -16px;
+        padding-bottom: 15px;
+        margin-bottom: -1px;
+        padding-top: 10px;
+        padding-right: 0 !important;
+    }
+
+    #profile_copy .AllInfo {
+        margin-left: 0;
+    }
+
+    #profile_copy .TopInfo {
+        margin-left: 0;
+        text-align: center;
+    }
+
+
+    #profile_copy #profile_iconSecond {
+        font-size: 50px;
+        color: black;
+    }
+
+    #profile_copy #appointment_iconSecond {
+        font-size: 50px;
+        color: white;
+    }
+
+    #profile_copy #payment_iconSecond {
+        font-size: 50px;
+        color: white;
+    }
+
+    #profile_copy #setting_iconSecond {
+        font-size: 50px;
+        color: white;
+    }
+
+    #profile_copy .UserIcon {
+        float: left;
+        border-right: 1px solid black;
+        margin-left: 21px;
+        padding: 5px 38px 5px 12px;
+        cursor: pointer;
+    }
+
+    #profile_copy .UserAppointment {
+        margin-left: 54px;
+        float: left;
+        border-right: 1px solid black;
+        padding: 5px 50px 5px 0px;
+        cursor: pointer;
+        position: relative;
+    }
+
+    #profile_copy .UserPayment {
+        margin-left: 38px;
+        float: left;
+        padding: 5px 0px 5px 0;
+        cursor: pointer;
+    }
+
+    #profile_copy .UserSetting {
+        margin-left: 25px;
+        float: left;
+        padding: 5px 0 5px 0;
+        cursor: pointer;
+    }
+
+
+    #profile_copy .Bot {
+        border-radius: 0;
+        margin-bottom: 60px;
+        width: 100%;
+    }
+
+    #profile_copy #editPlace {
+        margin-bottom: 20px;
+    }
+
+    #profile_copy #appointmentSecond_number {
+        position: absolute;
+        z-index: 1;
+        right: 5px;
+        top: 16px;
+        width: 25px;
+    }
+
+    #profile_copy #showAppointment {
+        height: 570px;
+        overflow: auto;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    #profile_copy #today,
+    #profile_copy #waiting,
+    #profile_copy #all,
+    #profile_copy #payment,
+    #profile_copy #paymentHistory {
+        overflow: hidden;
+        overflow-x: scroll;
+        overflow-y: scroll;
+        height: 570px;
+    }
+
+    #profile_copy #logout_iconSecond {
+        font-size: 50px;
+        color: rgba(48, 83, 125);
+    }
+
+    #profile_copy #UserLogoutSecond {
+        float: left;
+        padding: 5px 10px 5px 23px;
+        cursor: pointer;
+    }
+
+    #profile_copy #change {
+        margin-top: 10px;
+    }
+
+    #profile_copy #password_oldPlace,
+    #profile_copy #password_newPlace,
+    #profile_copy #password_confPlace {
+        display: none;
+    }
+
+    #profile_copy #password_feedback {
+        color: red;
+        display: none;
+    }
+
+    #profile_copy .Password_fail,
+    #profile_copy .change-success {
+        margin-top: -4px !important;
+        display: none;
+    }
+
+
+}

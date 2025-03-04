@@ -1,0 +1,127 @@
+:root {
+    --font-ubuntu: 'Ubuntu', monospace;
+    --color-border: #e5e5e5;
+}
+
+#registerThera .modal .modal-dialog .modal-content .modal-body .inverse {
+    position: relative;
+    transition: filter .8s ease;
+    text-align: center;
+}
+
+#registerThera .modal .modal-dialog .modal-content .modal-body .inverse:hover {
+    filter: drop-shadow(1px 1px 22px #7584bb);
+}
+
+#registerThera .col {
+    margin: 5px 0 5px 0;
+}
+
+#registerThera #edit-profile {
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 300px;
+    opacity: 0;
+}
+
+#registerThera #edit-profile::before {
+    content: ' ';
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#registerThera #edit-profile::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+#registerThera .modal .modal-dialog .modal-content .modal-body .camera-icon {
+    position: absolute;
+    top: 70px;
+    left: 353px;
+    width: 60px !important;
+    filter: invert(30%) !important;
+}
+
+#registerThera .modal .modal-dialog .modal-content .modal-body .inverse:hover .camera-icon {
+    filter: invert(100%) !important;
+}
+
+@media screen and (max-width:767px) {
+    #registerThera #edit-profile {
+        margin-left: 100px;
+        opacity: 0;
+    }
+
+    #registerThera .modal .modal-dialog .modal-content .modal-body .camera-icon {
+        left: 178px;
+    }
+}
+
+#registerThera input[type='submit'] {
+    background-color: darkblue;
+    border-width: 0;
+    padding: 7px 12px;
+    transition: ease 0.5s;
+    color: white;
+
+}
+
+#registerThera input[type='submit']:hover {
+    background-color: rgba(59, 82, 114);
+    transition: ease 0.5s;
+}
+
+#regthera-form input[type='text'],
+#regthera-form input[type='date'],
+#regthera-form input[type='email'],
+#regthera-form input[type='password'],
+#regthera-form input[type='tel'],
+#regthera-form input[type='file'] {
+    border: none;
+    border-radius: unset;
+    border-bottom: 1px solid var(--color-border);
+    font-family: var(--font-ubuntu);
+}
+
+#regthera-form input[type='file'] {
+    padding-bottom: 15px;
+}
+
+#regthera-form select {
+    border: none;
+    border-radius: unset;
+    border-bottom: 1px solid var(--color-border);
+    font-family: var(--font-ubuntu);
+    outline: none;
+    box-shadow: none;
+}
+
+#regthera-form .redstar{
+    color:red;
+}
+
+@media screen and (max-width: 414px) {
+    #registerThera .modal .modal-dialog .modal-content .modal-body .camera-icon {
+        left: 157px;
+        color: rgb(245, 245, 245);
+
+    }
+
+}
+
+#registerThera #password_length,
+#email_warning,
+#registerThera #password_same,
+#age_warning,
+#gender_warning,
+#spec_warning
+ {
+    color: red;
+    display: none;
+}

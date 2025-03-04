@@ -1,0 +1,114 @@
+#appointment .form {
+    background-color: rgba(59, 82, 114);
+    position: relative;
+    height: 600px;
+    width: auto;
+    height: auto;
+}
+
+#appointment .row select {
+    width: 100%;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+#appointment input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#appointment input[type="text"] {
+    border: none;
+    width: 100%;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+
+#appointment textarea {
+    border: none;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+#appointment input[type="submit"] {
+    background-color: darkblue;
+    border-width: 0;
+    padding: 7px 12px;
+    transition: ease 0.5s;
+    color: white
+}
+
+#appointment input[type='submit']:hover {
+    background-color: rgba(59, 82, 114);
+    transition: ease 0.5s;
+}
+
+#appointment .text {
+    background-color: #fff;
+    padding: 30px 30px;
+    width: 100%;
+}
+
+#appointment h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#appointment h2 {
+    font-size: 22px;
+    line-height: 33px;
+}
+
+#appointment li.list-group-item {
+    background-color: transparent;
+    border: none;
+    padding: 6px;
+
+}
+
+#appointment ul.list-group {
+    margin-top: 25px;
+}
+
+#appointment .col-md-12 .row img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#appointment .therapist_name {
+    color: white;
+    margin-top: 30px;
+}
+
+#appointment .therapist_license {
+    color: white;
+    margin-top: 30px;
+}
+
+@media screen and (max-width:414px) {
+    #appointment .therapist_name {
+        text-align: center !important;
+    }
+
+    #appointment .therapist_license {
+        text-align: center !important;
+    }
+
+    #appointment .header {
+        font-size: 10px;
+        padding-right: 3px !important;
+    }
+
+    #appointment #appointment-wholePage {
+        margin-left: -12px !important;
+    }
+
+    #appointment .form {
+        margin-right: -22px !important;
+    }
+}

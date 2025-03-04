@@ -1,0 +1,27 @@
+
+#admin .panel-body .btn:not(.btn-block) {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+/* body{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(221, 212, 130) 0%, rgb(255, 153, 250) 90% );
+  } */
+
+#admin .panel-group {
+    margin-bottom: 20px;
+}
+
+#admin .panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 4px;
+}
+
+/* #admin {
+    background-color: rgb(206, 230, 240);
+    height: 500px;
+} */
+
+#admin .panel-body a {
+    color: rgba(34, 19, 48);
+}
